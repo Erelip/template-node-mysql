@@ -38,7 +38,7 @@ class Express {
     listen = () => {
         this.app.listen(port, (err?: any) => {
             if (err) throw err;
-            console.log(`> Ready on ${env.app.host}:${port}`);
+            console.log(`> Ready on ${env.app.host}`);
         });
     };
 
